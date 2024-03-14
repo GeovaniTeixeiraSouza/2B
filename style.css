@@ -1,7 +1,24 @@
+*{
+   margin: 0 16px;
+   padding: 24px 0;
+   justify-content: space-around;
+   font-size: 24px;
+}
 body{
    background-color:  #383D58;
    color: white;
 }
 .cabecalho-imagem{
+   width: 20%;
    
+}
+.cabecalho{
+   background-color:  #383D58;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+}
+.cabecalo-lista-item{
+   display: inline-block;
+   margin: 0 16px;
 }
