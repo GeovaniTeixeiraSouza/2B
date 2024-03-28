@@ -24,6 +24,8 @@ body{
 }
 .escola-imagem{
     width: 25%;
+}
+.escola{
     background-image: linear-gradient(#383d58, #00c0eb);
     color: white;
     display: flex;
@@ -32,7 +34,7 @@ body{
     padding: 24px 0;
 }
 .escola-conteudo{
-    width: 35%; 
+    width: 35%;
 }
 .escola-titulo{
     padding: 24px 0;
