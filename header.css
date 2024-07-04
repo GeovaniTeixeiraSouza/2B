@@ -1,7 +1,9 @@
+@import url(style.css);
+
 .cabecalho__menu-hamburger{
     width: 24px;
     height: 24px;
-    background-image: url();
+    background-image: url(Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -27,4 +29,11 @@
 }
 .cantainer_botao:checked ~ .lista-menu{
     display: block;
+}
+.lista-menu_titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+.container_botao{
+    display: none;
 }
