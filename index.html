@@ -57,6 +57,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         <!-- Slider main container -->
 <div class="swiper">
     <!-- Additional required wrapper -->
+    <div class="swiper-pagination "></div>
     <div class="swiper-wrapper">
       <!-- Slides -->
       <div class="swiper-slide"><img src="ApacheKafka.svg" alt="Livro apache kafka"></div>
@@ -72,9 +73,18 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     <div class="swiper-button-next"></div>
   
     <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
+   
   </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+<script>
+    const swiper = new swiper('swiper',
+    {spaceBeTween:10, 
+        slidesPerView: 3,
+        pagination { el: '.swiper-pagination',
+            type:'bullets',
+        }
+    });
+</script>
 </body>
 </html>
