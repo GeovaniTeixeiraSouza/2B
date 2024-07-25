@@ -75,10 +75,31 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     <!-- If we need scrollbar -->
 
   </div>
+  <div class="card">
+    <div class="card__descricao">
+        <div class="descricao">
+            <h3 class="descricao__titulo"> Talvez você também se interesse por....</h3>
+            <h2 class="descricao__titulo__livro">Angular11 e ferebase</h2>
+            <p class="descricao__texto">Construin do uma aplicaçao integrada com a plataforma do google</p>
+        </div>
+        <img src="angilar.svg"
+        class="descricao__imagem"
+        
+    </div>
+  </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+
+<script>
+    const swiper = new swiper('swiper',
+    {spaceBeTween:10, 
+        slidesPerView: 3,
+        pagination {el: '.swiper-pagination',
+            type:'bullets',
+         el });
+</script>
     <script>
-        const swiper = new Swiper('.swiper', {
+        constswiper = new Swiper('.swiper', {
             spaceBetween: 10,
             slidesPerView: 3,
             pagination:{
