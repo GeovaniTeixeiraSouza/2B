@@ -1,0 +1,39 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(carrossel.css);
+@import url(topicos.css);
+
+.topicos{
+    background: var(--azul-degrade);
+    text-align: center;
+}
+.topicos_titulo{
+    color: var(--branco);
+    font-weight: 300;
+}
+.topicos_lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topicos_item{
+    margin: 2em0.5em;
+}
+.topicos._link{
+    color: var(--branco);
+    padding: 1em;
+    background-color: var(--laranja);
+    text-decoration: nome;
+    font-size: 14px;
+    font-weight: 700;
+}
+.topicos{
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1em 0;
+}
+.topicos_titulo{
+    color: var(--branco);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
