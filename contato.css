@@ -1,0 +1,13 @@
+@import url(style.css);
+
+.contato{
+    background-color: var();
+    padding: 1em;
+}
+
+.contato_titulo,
+.contato_texto{
+    background-color: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-backgrop-fill-color: transpatent;
+}
