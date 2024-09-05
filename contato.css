@@ -1,25 +1,25 @@
 @import url(style.css);
 
 .contato{
-    background-color: var();
+    background-color: var(--branco);
     padding: 1em;
 }
 
+.contato_titulo,
 .contato_texto{
     background-color: var(--azul-degrade);
     -webkit-background-clip: text;
-    -webkit-backgrop-fill-color: transpatent;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.contato_titulo{
+.contato__titulo{
     font-size: 18px;
     font-weight: 500;
 }
-.contato_texto{
+.contato__texto{
     font-weight: 300;
     margin: 1em 0;
-}
-.contato_email{
+}.contato_email{
     padding: 1em;
     border: 1px solid var(--azul);
     border-radius: 24px;
@@ -29,6 +29,6 @@
 .contato__email::placeholder{
     font-family: var();
     color: var(--azul);
-    background: url(Menu.svg) no-repeat;
+    background: url(Menu.svg)no-repeat;
     padding-left: 2em;
 }
