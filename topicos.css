@@ -37,3 +37,8 @@
     font-weight: 300;
     margin-bottom: 1em;
 }
+@media screen and (min-width: 1728px){
+    .topicos{
+        padding: 3em 30vw;
+    }
+}
