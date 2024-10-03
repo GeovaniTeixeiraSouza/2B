@@ -89,35 +89,35 @@
         display: flex;
         align-items: center;
         text-decoration: none;
-        color: var(--preto); }
-    
+        color: var(--preto);
+    }
     .cabecalho{
-        padding: 0 2em;
+    padding: 0 2em;
     }
     .opcoes{
-     margin-right: auto;
+        margin-right: auto;
     }
     .container__texto{
         display: block;
     }
-    .opcoes_botao:checked ~ .opcoes_rotolo> .opcoes_item{
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item{
         background: var(--azul-degrade);
         color: var(--branco);
     }
-    .opcoes_item{
+    .opcoes__item{
         padding: 2em 1em;
     }
-    .lista-menu_tituloimrem:hover{
+    .lista-menu__item:hover{
         background: var(--azul-degrade);
     }
-    .lista-menu_item>:hover> .lista-menu__link{
-        -webkit-text-fill-color: var(--branco);
+    .lista-menu__item:hover > .lista-menu__link{
+        -webkit-text-fill-color:var(--branco);
         text-decoration: none;
     }
 }
-.cantainer_botao:checked~ .container__rotulo> .cabecalho__menu-hamburger{
-    background-image: url(Logo.svg);
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburger{
+    background-image: url(Logo.svg)
 }
-.cantainer_botao:checked ~ .container__rotulo{
+.container__botao:checked ~ .container__rotulo{
     background: var(--azul-degrade);
 }
